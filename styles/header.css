@@ -7,7 +7,7 @@ header {
 
 .image-logo{
     max-width: 80px;
-    margin-left: 6%;
+    margin-left: 80px;
 }
 
 nav ul {
@@ -25,7 +25,7 @@ nav a, li {
 }
 
 form {
-    margin-right: 6%;
+    margin-right: 80px;
 }
 
 .header-btn {
@@ -46,6 +46,6 @@ form {
 
 .header-separator {
     border: 0;
-    width: 90%;
+    width: 1150px;
     border-top: 1px solid aqua;
 }

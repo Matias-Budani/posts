@@ -6,12 +6,12 @@
 }
 
 .category-title h2 {
-    margin: 4% 6% 3%;
+    margin: 15px 40px 20px;
     font-size: 3rem;
 }
 
 .category-title a {
-    margin-right: 8%;
+    margin-right: 40px;
     font-size: 24px;
     color: cornflowerblue;
     text-decoration: none;
@@ -19,11 +19,11 @@
 
 .category-cards {
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1.6fr 1fr;
     grid-template-rows: 1fr 1fr;
     gap: 64px;
     box-sizing: border-box;
-    margin: 2% 6% 6%;
+    margin: 20px 50px 40px;
 }
 
 .card-a {
@@ -41,6 +41,22 @@
     grid-row: 2/ 3;
 }
 
+.card-a .top-card{
+    font-size: 24px;
+}
 
+.card-b .top-card, .card-c .top-card, .card-a .middle-card{
+    font-size: 16px;
+}
 
+.card-b .middle-card, .card-c .middle-card {
+    font-size: 12px;
+}
 
+.card-a .card-text{
+    font-size: 32px;
+}
+
+.card-b .card-text, .card-c .card-text{
+    font-size: 16px;
+}

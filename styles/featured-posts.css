@@ -6,12 +6,12 @@
 }
 
 h1 {
-  margin: 3% 6%;
+  margin: 40px 80px;
   font-size: 3rem;
 }
 
 .featured-posts-title a {
-  margin-right: 8%;
+  margin-right: 100px;
   font-size: 24px;
   color: cornflowerblue;
   text-decoration: none;
@@ -22,8 +22,8 @@ h1 {
   flex-direction: row;
   justify-content: space-evenly;
   box-sizing: border-box;
-  margin: 2% 6% 7%;
-  gap: 6%;
+  margin: 30px 50px 40px;
+  gap: 40px;
 }
 
 .card {
@@ -35,12 +35,12 @@ h1 {
 }
 
 .info-post {
-  background-color: aqua;
   margin: 0;
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  padding: 20px;
+  gap:20px;
 }
 
 .card img {
@@ -49,12 +49,10 @@ h1 {
 }
 
 .top-card {
-  font-size: 32px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding: 3% 2rem 0;
 }
 
 .top-card h3 {
@@ -67,12 +65,10 @@ h1 {
 }
 
 .middle-card {
-  font-size: 16px;
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 2%;
-  padding: 1% 2rem 3%;
+  gap: 20px;
 }
 
 .middle-card a {
@@ -89,16 +85,16 @@ h1 {
 }
 
 .card-text {
-  padding: 1rem 0 2rem 1rem;
+  height: 100%;
   margin: 0;
-  font-size: 32px;
+  font-weight: 500;
   display: flex;
   align-items: center;
 }
 
 .featured-posts-separator {
   border: 0;
-  width: 5%;
+  width: 40px;
   border-top: 4px solid aqua;
   align-items: center;
 }

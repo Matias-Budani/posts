@@ -1,0 +1,32 @@
+body {
+    margin: 0
+}
+
+footer {
+    background-color: #333333;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3% 0;
+    margin: 0
+}
+
+.addional-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 80px
+}
+
+.addional-links li, a{
+    list-style-type: none;
+    text-decoration: none;
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer h4 {
+    margin-right: 6%;
+    color: white;
+}

@@ -1,0 +1,53 @@
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.image-logo{
+    max-width: 80px;
+    margin-left: 6%;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    gap:80px;
+}
+
+nav a, li {
+    list-style-type: none;
+    text-decoration: none;
+    color:cornflowerblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+form {
+    margin-right: 6%;
+}
+
+.header-btn {
+    background-color: cornflowerblue;
+    border: none;
+    color: white;
+    padding: 8px 8px;
+    border-radius: 4px 0 0 4px;
+    height: 32px;
+    margin-right: -6px;
+}
+
+.header-search {
+    border: 1px solid cornflowerblue;
+    border-radius: 0 4px 4px 0;
+    height: 28px;
+}
+
+.header-separator {
+    border: 0;
+    width: 90%;
+    border-top: 1px solid aqua;
+}
+
+

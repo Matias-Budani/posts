@@ -1,0 +1,93 @@
+.featured-posts-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+    margin: 3% 6%;
+    font-size: 3rem;
+}
+
+.featured-posts-title a {
+    margin-right: 8%;
+    font-size: 24px;
+    color: cornflowerblue;
+    text-decoration: none;
+}
+
+.featured-posts-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    margin: 2% 6% 7%;
+    gap:6%;
+}
+
+.card {
+    width: 40%;
+    height: auto;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+}
+
+.card img{
+    width: 100%;
+    margin: 0;
+}
+
+.top-card {
+    font-size: 32px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 3% 5% 0;
+}
+
+.top-card h3{
+    margin: 0;
+}
+
+.top-card a {
+    color: cornflowerblue;
+    text-decoration: none;
+}
+
+.middle-card {
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2%;
+    margin: 1% 5% 3%;
+}
+
+.middle-card a {
+    color: cornflowerblue;
+    text-decoration: none;
+}
+
+
+.middle-card h5 {
+    color: #aaa;
+}
+
+.middle-card h5 {
+    margin: 0;
+}
+
+.card-text {
+    margin-left: 5%;
+    font-size: 32px;
+}
+
+.featured-posts-separator{
+    border: 0;
+    width: 5%;
+    border-top: 4px solid aqua;
+    align-items: center;
+    
+}
